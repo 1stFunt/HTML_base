@@ -1,0 +1,51 @@
+html {
+    background-color: aqua;
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    font-family: 'beer money', sans-serif;
+    color: rgb(190, 165, 24);
+}
+
+a {
+    color: rgb(71, 139, 2);
+}
+
+.big_text {
+    font-size: 24px;
+}
+
+ul {
+    list-style: square inside;
+}
+
+@font-face {
+    font-family: 'beer money';
+    src: url('fonts/beer_money.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('fonts/beer_money.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('fonts/beer_money.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/beer_money.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('fonts/beer_money.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/beer_money.svg#beer_money') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+img {
+    margin-left: 50px;
+    border: 3px solid rgb(4, 79, 219);
+}
+#отступ_сверху {
+    margin-top: 10px;           /* через id */
+}
+.отступ_сверху {
+    margin-top: 10px;           /* через class */
+}
